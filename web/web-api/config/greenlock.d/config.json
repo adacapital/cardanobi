@@ -1,0 +1,47 @@
+{
+  "defaults": {
+    "store": {
+      "module": "greenlock-store-fs"
+    },
+    "challenges": {
+      "http-01": {
+        "module": "acme-http-01-standalone"
+      }
+    },
+    "renewOffset": "-45d",
+    "renewStagger": "3d",
+    "accountKeyType": "EC-P256",
+    "serverKeyType": "RSA-2048",
+    "subscriberEmail": "admin@adacapital.io"
+  },
+  "sites": [
+    {
+      "subject": "adacapital.io",
+      "altnames": [
+        "adacapital.io"
+      ],
+      "renewAt": 1
+    },
+    {
+      "subject": "www.adacapital.io",
+      "altnames": [
+        "www.adacapital.io"
+      ],
+      "renewAt": 1
+    },
+    {
+      "subject": "adact.io",
+      "altnames": [
+        "adact.io"
+      ],
+      "renewAt": 1
+    },
+    {
+      "subject": "www.adact.io",
+      "altnames": [
+        "www.adact.io"
+      ],
+      "renewAt": 1
+    }
+  ]
+}
