@@ -1,6 +1,6 @@
 ![This is an image](/web/web-app/public/img/cardanobi_logo_full_white.svg#gh-dark-mode-only)
 ![This is an image](/web/web-app/public/img/cardanobi_logo_full_black.svg#gh-light-mode-only)
-# CardanoBI
+# CardanoBI :
 The first fully open-source Business Intelligence API layer to provide on-chain analytics and enable new data-driven services on Cardano.
 
 ADA Capital (ADACT) is joining forces with ZETETIC Stake Pool (ZETIC) to deliver value faster to the community.
@@ -9,7 +9,7 @@ ADA Capital (ADACT) is joining forces with ZETETIC Stake Pool (ZETIC) to deliver
 # Problem statement :
 There's a great deal of value locked in the data processed by Cardano and its ecosystem. How to extract it and make it available to all?
 
-# Describe the solution to the problem :
+# Ssolution to the problem :
 Build a Business Intelligence API Layer to provide on-chain analytics and enable new data-driven services on Cardano.
 
 # Relevant experience :
@@ -35,7 +35,7 @@ This project proposes to build the following capabilities:
         * Fully open-source backend CLI tools to define and leverage event-driven workflows.
         * Fully open-source frontend widgets to create new customer experiences and interactions.
 
-# Description of how the proposed solution will address the challenge?
+# Description of how the proposed solution will address the challenge :
 The above capabilities will bring the following benefits which will address the challenge:
 
   * A fully open-source Business Intelligence API Layer on top of Cardano:
@@ -51,7 +51,7 @@ The above capabilities will bring the following benefits which will address the 
         * CLI backend tools will enable developers to streamline the creation of new event-driven workflows: e.g. interact with their end-customers when a specific event occurred on the blockchain, or when a specific metric reaches a specific value, or when an epoch ends for instance.
         * Frontend widgets will enable developers to bring Cardano on-chain data and our value added data analytics to the end-customer screens and to improve their user experience or interact with the developed service in question.
 
-# Main challenges or risks foreseen to deliver this project successfully?
+# Main challenges or risks foreseen to deliver this project successfully :
 Funding:
 
   * This project is a significant piece of work which requires the right level of funding to pay for infrastructure costs and senior IT resources to develop an industry standard solution.
@@ -64,7 +64,7 @@ Marketing:
   * To drive adoption to our open-source solution and SaaS service will require some time and effort towards marketing our brand, solutions and products.
   * This is less a risk but more of a point of attention that our founders are well aware of but can manage through our existing communication channels which are well established.
 
-# Detailed plan
+# Detailed plan :
 
 ## Context:
 
@@ -80,7 +80,7 @@ Specifically for small SPOs, for whom it is so difficult to differentiate themse
 
 Lastly, we will create reusable front-end & backend components, which by consuming our APIs, will offer service providers the ability to improve the user-experience of their customers or to create new customer journeys altogether.
 
-## Plan:
+## Plan :
 
 There are 5 EPICS in this project:
 
@@ -94,7 +94,7 @@ There are 5 EPICS in this project:
 
 5. Reusable components: these will be standalone frontend widgets or backend CLI, built on top of our APIs to enable new user experiences/interactions (e.g. components for SPOs to leverage important business events like a new block being forged, a new address delegating to their pool, a new ATH for the max number of ADA processed by their pool, etc...).
 
-## Roadmap: 
+## Roadmap : 
 
 All 5 EPICS will be broken down into features and are goal will be to optimize their sequencing such that we can deliver value incrementally and get client feedback quickly going through an MVP phase followed by an industrialization phase.
 
@@ -161,7 +161,7 @@ All 5 EPICS will be broken down into features and are goal will be to optimize t
     * CLI component allowing realtime pool data to be sent to Fron-end components.
     * CLI component allowing customer channel interaction (twitter, telegram) when business events are triggered (new block, new delegator etc...)
 
-## Timeline / Success criteria:
+## Timeline / Success criteria :
 
 Here we provide estimated completion time horizons of each feature identified with E(epic number)F(feature number) (e.g. E1F1 for FEATURE #1 of EPIC #1)
 
