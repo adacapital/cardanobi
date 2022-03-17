@@ -17,50 +17,50 @@ Experienced in defining, architecting and delivering complex cross-domain IT pro
 
 Website/GitHub repository: https://github.com/adacapital/cardanobi
 
-# Detailed descriptin of the proposed solution :
+# Detailed description of the proposed solution :
 This project proposes to build the following capabilities:
 
   * A fully open-source Business Intelligence API Layer on top of Cardano:
     * What does it do?
         * Provides developers with a standardized way to access and consume the data locked into the Cardano blockchain.
-Enriches raw on-chain data with value added data analytics and insights to extract even more value out of Cardano's data.
-A Software As A Service Business Intelligence API:
-What does it do?
-Commoditizes the access to Cardano's on-chain data and to new value added data analytics and insights.
-Streamlines to all the access to the business value locked in Cardano's on chain data and enable the creation of new data-driven services thus supporting the growth of the Cardano ecosystem as a whole.
-A series of reusable components:
-What does it do?
-Fully open-source backend CLI tools to define and leverage event-driven workflows.
-Fully open-source frontend widgets to create new customer experiences and interactions.
-Please describe how your proposed solution will address the challenge?
+        * Enriches raw on-chain data with value added data analytics and insights to extract even more value out of Cardano's data.
+  * A Software As A Service Business Intelligence API:
+    * What does it do?
+        * Commoditizes the access to Cardano's on-chain data and to new value added data analytics and insights.
+        * Streamlines to all the access to the business value locked in Cardano's on chain data and enable the creation of new data-driven services thus supporting the growth of the Cardano ecosystem as a whole.
+  * A series of reusable components:
+    * What does it do?
+        * Fully open-source backend CLI tools to define and leverage event-driven workflows.
+        * Fully open-source frontend widgets to create new customer experiences and interactions.
+
+# Description of how the proposed solution will address the challenge?
 The above capabilities will bring the following benefits which will address the challenge:
 
+  * A fully open-source Business Intelligence API Layer on top of Cardano:
+    * Benefits:
+        * By being fully open-source, we bring transparency and trust in how the service is delivered, demonstrating that the raw on-chain data isn't tempered with for instance.
+        * By being fully open-source (across our whole stack: API infrastructure provisioning, API management, API definition and implementation), we allow others to fork our code and accelerate their own development thus reducing greatly their time to market. We accelerate overall the business value creation on Cardano and we make it accessible to all.
+  * A Software As A Service Business Intelligence API:
+    * Benefits:
+        * For those who simply want to consume Cardano on-chain data and our value added data analytics, we offer even greater time to market compression by providing a readily consumable SaaS service. People will be able to pay for that service in ADA, EUR, GBP, USD or by delegating to one of our sponsor SPOs.
+        * By creating new value added data insights, we target several customer segments (Investors, SPO, data aggregators, data analytics firms) and simplify their access to the Cardano on-chain data and insights. In doing so we enable new data-driven services inside and outside the Cardano ecosystem.
+  * A series of reusable components:
+    * Benefits:
+        * CLI backend tools will enable developers to streamline the creation of new event-driven workflows: e.g. interact with their end-customers when a specific event occurred on the blockchain, or when a specific metric reaches a specific value, or when an epoch ends for instance.
+        * Frontend widgets will enable developers to bring Cardano on-chain data and our value added data analytics to the end-customer screens and to improve their user experience or interact with the developed service in question.
 
-
-A fully open-source Business Intelligence API Layer on top of Cardano:
-Benefits:
-By being fully open-source, we bring transparency and trust in how the service is delivered, demonstrating that the raw on-chain data isn't tempered with for instance.
-By being fully open-source (across our whole stack: API infrastructure provisioning, API management, API definition and implementation), we allow others to fork our code and accelerate their own development thus reducing greatly their time to market. We accelerate overall the business value creation on Cardano and we make it accessible to all.
-A Software As A Service Business Intelligence API:
-Benefits:
-For those who simply want to consume Cardano on-chain data and our value added data analytics, we offer even greater time to market compression by providing a readily consumable SaaS service. People will be able to pay for that service in ADA, EUR, GBP, USD or by delegating to one of our sponsor SPOs.
-By creating new value added data insights, we target several customer segments (Investors, SPO, data aggregators, data analytics firms) and simplify their access to the Cardano on-chain data and insights. In doing so we enable new data-driven services inside and outside the Cardano ecosystem.
-A series of reusable components:
-Benefits:
-CLI backend tools will enable developers to streamline the creation of new event-driven workflows: e.g. interact with their end-customers when a specific event occurred on the blockchain, or when a specific metric reaches a specific value, or when an epoch ends for instance.
-Frontend widgets will enable developers to bring Cardano on-chain data and our value added data analytics to the end-customer screens and to improve their user experience or interact with the developed service in question.
-What main challenges or risks do you foresee to deliver this project successfully?
+# Main challenges or risks foreseen to deliver this project successfully?
 Funding:
 
-This project is a significant piece of work which requires the right level of funding to pay for infrastructure costs and senior IT resources to develop an industry standard solution.
-To mitigate this risk we've prepared a detailed plan below with detailed and fair cost estimates.
-We also planned for a 20% contingency budget.
+  * This project is a significant piece of work which requires the right level of funding to pay for infrastructure costs and senior IT resources to develop an industry standard solution.
+  * To mitigate this risk we've prepared a detailed plan below with detailed and fair cost estimates.
+  * We also planned for a 20% contingency budget.
 
 
 Marketing:
 
-To drive adoption to our open-source solution and SaaS service will require some time and effort towards marketing our brand, solutions and products.
-This is less a risk but more of a point of attention that our founders are well aware of but can manage through our existing communication channels which are well established.
+  * To drive adoption to our open-source solution and SaaS service will require some time and effort towards marketing our brand, solutions and products.
+  * This is less a risk but more of a point of attention that our founders are well aware of but can manage through our existing communication channels which are well established.
 
 # Detailed plan
 
