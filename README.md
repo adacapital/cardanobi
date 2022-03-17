@@ -94,113 +94,91 @@ There are 5 EPICS in this project:
 
 ## Roadmap: 
 
-From the above 5 EPICS, we will break them down into features and look at optimizing the sequencing such that we can deliver value incrementally and get client feedback quickly.
+All 5 EPICS will be broken down into features and are goal will be to optimize their sequencing such that we can deliver value incrementally and get client feedback quickly going through an MVP phase followed by an industrialization phase.
 
 ### EPIC #1: API definition
 
   * Feature 1: REST API following db-sync data model
-
-      Prepare swagger files.
+    * Create swagger files.
 
   * Feature 2: New value added REST API
-
-      Prepare swagger files.
+    * Create swagger files.
 
   * Feature 3: New value added ASYNC API
-
-      Prepare avro schemas.
+    * Create avro schemas.
 
 ### EPIC #2: API implementation
 
   * Feature 1: Infrastructure
-
-      Provisioning of necessary cloud based resources using Infrastructure As Code (IaC).
-
-      Leveraging load-balancing where necessary (db-sync, app servers)
+    * Provisioning of necessary cloud based resources using Infrastructure As Code (IaC).
+    * Leveraging load-balancing where necessary (db-sync, app servers)
 
   * Feature 2: db-sync
-
-      Install db-sync (https://github.com/input-output-hk/cardano-db-sync) in a load-balanced pattern.
+    * Install db-sync (https://github.com/input-output-hk/cardano-db-sync) in a load-balanced pattern.
 
   * Feature 3: Micro-services
-
-      Build services following Service Oriented Architecture (SOA) principles, services topology yet to be determined but certainly will follow entity domains as per db-sync data model enriched with new value added entities. 
+    * Build services following Service Oriented Architecture (SOA) principles, services topology yet to be determined but certainly will follow entity domains as per db-sync data model enriched with new value added entities. 
 
   * Feature 4: Resilience + monitoring + NFRs
+    * Implement resource monitoring through cloud service or adhoc solution (TBD)
+    * Make sure above components are fault tolerant through load-balancing and can resume from failure.
 
-      Implement resource monitoring through cloud service or adhoc solution (TBD)
-
-      Make sure above components are fault tolerant through load-balancing and can resume from failure.
+  * Feature 5: API SDK
+    * Nodejs SDK to commoditize the nodejs developer experience when using Cardanobi APIs.
+    * Python SDK to commoditize the python developer experience when using Cardanobi APIs
 
 ### EPIC #3: API management
 
-  * Feature 1: API gateway
-
-      Leverage cloud provider API gateway.
-
-      Configuration, link to authentication server, setup Oauth2, API Keys to manage incoming traffic (north/south)
+  * Feature 1: External API gateway
+    * Leverage cloud provider external API gateway, configure policies (rate limit, quota).
+    * Configuration, link to authentication server, setup Oauth2 and OIDC, API Keys to manage incoming traffic (north/south)
+    * Configure other security aspects (pre-access checks, content attack prevention, abnormal activity)
 
   * Feature 2: Microgateways
-
-      Leverage open source microgateways (nginx).
-
-      Manage traffic among microservices.
+    * Implement open source microgateways (nginx) to manage micro-services.
+    * Manage traffic among microservices.
 
 ### EPIC #4: API catalogue, data-insight portal
 
   * Feature 1: Catalogue
-
-      Auto-generate API documentation from source code using relevant tool (eg. redoc)
+    * Auto-generate API documentation from source code using relevant tool (eg. redoc)
 
   * Feature 2: Portal front-end
-
-      React native app consisting of landing page, API key generation page, API documentation pages, User subscription page (to access specific user profile data insights), data-insights page to present both key on-chain data analytics and new added-value data analytics (user will have to create an account to access profile specific data analytics (e.g. SPO, investors))
+    * React native app consisting of landing page, API key generation page, API documentation pages, User subscription page (to access specific user profile data insights), data-insights page to present both key on-chain data analytics and new added-value data analytics (user will have to create an account to access profile specific data analytics (e.g. SPO, investors))
 
   * Feature 3: Portal back-end
-
-      Nodejs backend to fulfil certain interaction end-point and backend function (e.g. API key generation and safe keeping in dedicated vault)
+    * Nodejs backend to fulfil certain interaction end-point and backend function (e.g. API key generation and safe keeping in dedicated vault)
 
 ### EPIC #5: Reusable components
 
   * Feature 1: Front-end components
-
-      React components + javascript code to retrieve relevant data points from APIs and present them in a modern widget.
-
-      Scope to cover: epoch, slot, tip, time to epoch boundary, new block, transaction count, volume exchanged etc...
+    * React components + javascript code to retrieve relevant data points from APIs and present them in a modern widget.
+    Scope to cover: epoch, slot, tip, time to epoch boundary, new block, transaction count, volume exchanged etc...
 
   * Feature 2: Back-end components for SPOs
-
-      CLI component allowing realtime pool data to be sent to Fron-end components.
-
-      CLI component allowing customer channel interaction (twitter, telegram) when business events are triggered (new block, new delegator etc...)
+    * CLI component allowing realtime pool data to be sent to Fron-end components.
+    * CLI component allowing customer channel interaction (twitter, telegram) when business events are triggered (new block, new delegator etc...)
 
 ## Timeline / Success criteria:
 
 Here we provide estimated completion time horizons of each feature identified with E(epic number)F(feature number) (e.g. E1F1 for FEATURE #1 of EPIC #1)
 
 ### 1 month:
-
-E1F1, E2F1, E2F2
-
-Outcome: the core infra is set up and core REST APIs are defined
+  * E1F1, E2F1, E2F2
+  * Outcome: the core infra is set up and core REST APIs are defined
 
 ### 3 months:
-
-E2F3, E3F1, E3F2
-
-Outcome: microservices framework and first instances deployed, gateway and microgateway in place. (this can be considered a first MVP where the API consumption can be tested end to end).
+  * E2F3, E3F1, E3F2
+  * Outcome: microservices framework and first instances deployed, external gateway and microgateway in place. (this can be considered a first MVP where the API consumption can be tested end to end).
 
 ### 6 months:
-
-E1F3, E2F4, E4F1, E4F2, E4F3, E5F1, E5F2
-
-Outcome: new value added API have been defined, the services are resilient and follow relevant non-function requirements (NFRs), monitoring is in place, the portal is in place with its API catalogue. (this can be considered as the industrialized MVP enriched with the customer front-end)
+  * E1F3, E2F4, E4F1, E4F2, E4F3, E5F1, E5F2
+  * Outcome: new value added API have been defined, the services are resilient and follow relevant non-function requirements (NFRs), monitoring is in place, the portal is in place with its API catalogue. (this can be considered as the industrialized MVP enriched with the customer front-end)
 
 ### 12 months:
-
-Outcome: we've done the necessary social media marketing, IOG is helping as they see the great product that has been built, we have 10,000+ API queries a day.
+  * Outcome: we've done the necessary social media marketing, IOG is helping as they see the great product that has been built, we have 10,000+ API queries a day.
  
 
-Expected start date: February 2022
+Expected start date: May 2022
 
-Expected public launch date: Summer 2022 
+Expected public launch date: November 2022
