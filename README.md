@@ -1,3 +1,4 @@
+![This is an image](/web/web-app/public/img/cardanobi_logo_full_white.svg)
 # CardanoBI
 The first fully open-source Business Intelligence API layer to provide on-chain analytics and enable new data-driven services on Cardano.
 
