@@ -7,22 +7,22 @@ ADA Capital (ADACT) is joining forces with ZETETIC Stake Pool (ZETIC) to deliver
 # Problem statement :
 There's a great deal of value locked in the data processed by Cardano and its ecosystem. How to extract it and make it available to all?
 
-# Describe your solution to the problem
+# Describe the solution to the problem :
 Build a Business Intelligence API Layer to provide on-chain analytics and enable new data-driven services on Cardano.
 
-# Relevant experience
+# Relevant experience :
 SPOs running ADACT (https://adacapital.io) & ZETIC (https://zeteticstakepool.com), 40+ years exp full-stack dev/prod in FS industry, event-driven, API, AI.
 
 Experienced in defining, architecting and delivering complex cross-domain IT projects, involving multiple technologies and remote teams.
 
 Website/GitHub repository: https://github.com/adacapital/cardanobi
 
-# Please describe your proposed solution.
+# Detailed descriptin of the proposed solution :
 This project proposes to build the following capabilities:
 
   * A fully open-source Business Intelligence API Layer on top of Cardano:
     * What does it do?
-Provides developers with a standardized way to access and consume the data locked into the Cardano blockchain.
+        * Provides developers with a standardized way to access and consume the data locked into the Cardano blockchain.
 Enriches raw on-chain data with value added data analytics and insights to extract even more value out of Cardano's data.
 A Software As A Service Business Intelligence API:
 What does it do?
