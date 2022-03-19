@@ -9,7 +9,7 @@ ADA Capital (ADACT) is joining forces with ZETETIC Stake Pool (ZETIC) to deliver
 # Problem statement :
 There's a great deal of value locked in the data processed by Cardano and its ecosystem. How to extract it and make it available to all?
 
-# Ssolution to the problem :
+# Solution to the problem :
 Build a Business Intelligence API Layer to provide on-chain analytics and enable new data-driven services on Cardano.
 
 # Relevant experience :
