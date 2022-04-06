@@ -396,8 +396,8 @@ a.navbar-brand {
   border-radius: 10px;
 } */
 
-.glow-on-hover:after {
-}
+/* .glow-on-hover:after {
+} */
 
 @keyframes glowing {
   0% { background-position: 0 0; }
