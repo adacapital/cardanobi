@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div class="page-header bg-dark">
             <div class="col d-flex justify-content-center">
-                <div class="badge rounded-pill bg-success-bright"><strong>Copyright © {year} ADA Capital. All rights reserved.</strong></div>
+                <div class="badge rounded-pill bg-success-bright-orange"><strong>Copyright © {year} CardanoBI. All rights reserved.</strong></div>
             </div>
         </div>
     )

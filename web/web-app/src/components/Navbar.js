@@ -2,9 +2,9 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-darker fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="img/adacapital_logo2_white4.svg" style={{width: '300px', height: '55px'}} alt="" /></a>
+        <a class="navbar-brand" href="#"><img src="img/cardanobi_logo_full_white.svg" style={{width: '300px', height: '55px'}} alt="" /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -22,14 +22,14 @@ const Navbar = () => {
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#staking">Staking</a>
+              <a class="nav-link" href="#features">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
+              <a class="nav-link" href="#team">Team</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#build">Build</a>
-            </li>
+            {/* <li class="nav-item">
+              <a class="nav-link" href="#roadmap">Roadmap</a>
+            </li> */}
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>

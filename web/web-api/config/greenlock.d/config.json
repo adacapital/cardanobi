@@ -12,34 +12,20 @@
     "renewStagger": "3d",
     "accountKeyType": "EC-P256",
     "serverKeyType": "RSA-2048",
-    "subscriberEmail": "admin@adacapital.io"
+    "subscriberEmail": "admin@cardanobi.io"
   },
   "sites": [
     {
-      "subject": "adacapital.io",
+      "subject": "cardanobi.io",
       "altnames": [
-        "adacapital.io"
+        "cardanobi.io"
       ],
       "renewAt": 1
     },
     {
-      "subject": "www.adacapital.io",
+      "subject": "www.cardanobi.io",
       "altnames": [
-        "www.adacapital.io"
-      ],
-      "renewAt": 1
-    },
-    {
-      "subject": "adact.io",
-      "altnames": [
-        "adact.io"
-      ],
-      "renewAt": 1
-    },
-    {
-      "subject": "www.adact.io",
-      "altnames": [
-        "www.adact.io"
+        "www.cardanobi.io"
       ],
       "renewAt": 1
     }
