@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-darker fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="img/cardanobi_logo_full_white.svg" style={{width: '200px', height: '50px'}} alt="" /></a>
+        <a class="navbar-brand" href="#"><img src="img/cardanobi_logo_full_white.png" style={{width: '192px', height: '40px'}} alt="" /></a>
         <button
           class="navbar-toggler"
           type="button"
