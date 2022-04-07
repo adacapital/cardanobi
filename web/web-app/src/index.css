@@ -731,3 +731,8 @@ text-align: center;
 text-decoration: none;
 padding: .2em 1em;
 } */
+
+.responsive_img {
+  max-width: 100%;
+  height: auto;
+}

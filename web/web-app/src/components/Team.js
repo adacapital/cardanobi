@@ -48,7 +48,8 @@ const Team = () => {
                 <div class="grid features-full x4">
                     <div class="features-card">
                         <div class="features-card-top-2">
-                            <img src="img/adacapital_logo2_white4_crop.png" style={{ width: '450px', height: '114px'}} alt="" />
+                            {/* <img src="img/adacapital_logo2_white4_crop.png" style={{ width: '450px', height: '114px'}} alt="" /> */}
+                            <img src="img/adacapital_logo2_white4_crop.png" class="responsive_img" alt="" />
                             <h4><b>ADA Capital</b></h4>
                             <a class="a-lnk" href="https://adacapital.io/" target="_blank" rel="noopener noreferrer">
                               <div class="popup-button glow-on-hover align-items-center justify-content-center" style={{width: "50px", height: "50px"}}><FaLink size={25} /></div>
@@ -57,7 +58,9 @@ const Team = () => {
                     </div>
                     <div class="features-card">
                         <div class="features-card-top-2">
-                            <img src="img/zete_logo.jpg" style={{ width: '120px', height: '120px', borderRadius: 120 / 2  }} alt="" />
+                            {/* <img src="img/zete_logo.jpg" class="responsive_img" style={{ width: '120px', height: '120px', borderRadius: 120 / 2  }} alt="" /> */}
+                            <img src="img/zete_logo.jpg" class="responsive_img" style={{ height: '120px', borderRadius: 800 / 2  }} alt="" />
+                            <br></br>
                             <h4><b>Zetetic Staking</b></h4>
                             <a class="a-lnk" href="https://zetetic.tech/" target="_blank" rel="noopener noreferrer">
                               <div class="popup-button glow-on-hover align-items-center justify-content-center" style={{width: "50px", height: "50px"}}><FaLink size={25} /></div>
