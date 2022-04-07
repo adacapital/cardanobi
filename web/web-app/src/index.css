@@ -36,8 +36,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 15px;
   }
   
-  h2.h2-custom-sub {
+  a.h2-custom-sub, h2.h2-custom-sub {
     font-size: 15px;
+  }
+
+  .popup-button {
+    font-size: 0.6em!important;
   }
 }
 
