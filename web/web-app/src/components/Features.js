@@ -15,18 +15,18 @@ const Features = () => {
                   <div class="col-12 pt-3">
                       <div class="d-flex align-items-center justify-content-center card-static slide-in-bottom custom-width-70">
                           <h1><strong>Increase Trust</strong></h1>
-                          <p class="h2-custom sub-text">
+                          <h2 class="h2-custom sub-text">
                               Being fully open-source, our backend and frontend code can be audited, tested and contributed to by anyone.
-                          </p>
+                          </h2>
                           <p></p><p></p>
                       </div>
                   </div>
                   <div class="col-12 pt-3">
                       <div class="d-flex align-items-center justify-content-center card-static slide-in-bottom custom-width-70">
                           <h1><strong>Bring Agility</strong></h1>
-                          <p class="h2-custom sub-text">
+                          <h2 class="h2-custom sub-text">
                               By cloning our github repo or by consuming our SaaS service, projects building on Cardano can speed up time to market and deliver value faster.
-                          </p>
+                          </h2>
                       </div>
                   </div>
               </div>
@@ -34,13 +34,13 @@ const Features = () => {
                   <div class="col-12 pt-3">
                       <div class="d-flex align-items-center justify-content-center card-static slide-in-bottom custom-width-70">
                           <h1><strong>Ease Access To Data</strong></h1>
-                          <p class="h2-custom sub-text">Get a commoditized access to the data currently locked in the Cardano blockchain. Consume new data insights synchronously or asyncrhonously.</p>
+                          <h2 class="h2-custom sub-text">Get a commoditized access to the data currently locked in the Cardano blockchain. Consume new data insights synchronously or asyncrhonously.</h2>
                       </div>
                   </div>
                   <div class="col-12 pt-3">
                       <div class="d-flex align-items-center justify-content-center card-static slide-in-bottom custom-width-70">
                           <h1><strong>Enable New Services</strong></h1>
-                          <p class="h2-custom sub-text">Empowered with value-added data and the nesseary tools to integrate it, anyone can build new data-driven services on Cardano at a low cost.</p>
+                          <h2 class="h2-custom sub-text">Empowered with value-added data and the nesseary tools to integrate it, anyone can build new data-driven services on Cardano at a low cost.</h2>
                           <p></p>
                       </div>
                   </div>

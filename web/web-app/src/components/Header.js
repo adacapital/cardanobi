@@ -36,13 +36,15 @@ const Header = () => {
             <div class="intro-content">
               <br/><br/>
               <h1 class="h1-grad">A Fully Open-Source<br/>Business Intelligence<br/>API Layer For Cardano</h1>
-              <p class="h2-custom">Build new data-driven services.<br/>Enable event-driven workflows.<br/>Access unique data-insights.</p>
+              <h2 class="h2-custom">Build new data-driven services.<br/>Enable event-driven workflows.<br/>Access unique data-insights.</h2>
               <div class="row">
                 <div class="col centered pt-3">
-                  <a href="#" class="popup-button glow-on-hover" style={{width: "250px"}} onClick={() => { countDownPopup(); }}>Launch App</a>
+                  {/* <a href="#" class="popup-button glow-on-hover" style={{width: "250px"}} onClick={() => { countDownPopup(); }}>Launch App</a> */}
+                  <a href="#" class="popup-button glow-on-hover" onClick={() => { countDownPopup(); }}>Launch App</a>
                 </div>
                 <div class="col centered pt-3">
-                  <a href="#features" class="popup-button glow-on-hover" style={{width: "250px"}}>Learn More</a>
+                  {/* <a href="#features" class="popup-button glow-on-hover" style={{width: "250px"}}>Learn More</a> */}
+                  <a href="#features" class="popup-button glow-on-hover">Learn More</a>
                 </div>
               </div>
             </div>
