@@ -9,6 +9,7 @@ body {
   font-style: normal;
   font-weight: 600;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -419,8 +420,8 @@ a.navbar-brand {
  @-webkit-keyframes slide-in-bottom{0%{-webkit-transform:translateY(1000px);transform:translateY(1000px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}@keyframes slide-in-bottom{0%{-webkit-transform:translateY(1000px);transform:translateY(1000px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}
 
 
- /* scroll anchors */
- #features{
+/* scroll anchors */
+#features{
   scroll-margin-top: 150px;
 }
 #team{
