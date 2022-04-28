@@ -34,7 +34,7 @@ const Features = () => {
                   <div class="col-12 pt-3">
                       <div class="d-flex align-items-center justify-content-center card-static slide-in-bottom custom-width-70">
                           <h1><strong>Ease Access To Data</strong></h1>
-                          <h2 class="h2-custom sub-text">Get a commoditized access to the data currently locked in the Cardano blockchain. Consume new data insights synchronously or asyncrhonously.</h2>
+                          <h2 class="h2-custom sub-text">Get a commoditized access to the data currently locked in the Cardano blockchain. Consume new data insights synchronously or asynchronously.</h2>
                       </div>
                   </div>
                   <div class="col-12 pt-3">
