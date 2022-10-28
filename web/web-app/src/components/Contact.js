@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaTwitter, FaTelegramPlane, FaMediumM, FaYoutube, FaGithub } from 'react-icons/fa';
+import { FaTwitter, FaGithub } from 'react-icons/fa';
 import { MdAlternateEmail } from 'react-icons/md'
 
 const Contact = () => {
