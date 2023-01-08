@@ -50,7 +50,7 @@ const Navbar = () => {
                         <path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path>
                     </svg>
                 </button>
-                <a class="navbar__brand" href="/">
+                <a class="navbar__brand" href="#home">
                     <div class="navbar__logo"><img src="img/cardanobi_logo_full_white.png" id="brand_logo" alt="CardanoBI" class="themedImage_node_modules-@docusaurus-theme-classic-lib-theme-ThemedImage-styles-module themedImage--dark_node_modules-@docusaurus-theme-classic-lib-theme-ThemedImage-styles-module"/></div>
                     <b class="navbar__title text--truncate">Alpha</b>
                 </a>
@@ -114,43 +114,22 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div class="navbar-sidebar__item menu">
-                    <button type="button" class="clean-btn navbar-sidebar__back">← Back to main menu</button>
+                    {/* <button type="button" class="clean-btn navbar-sidebar__back">← Back to main menu</button> */}
                     <ul class="theme-doc-sidebar-menu menu__list">
                         <li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item">
-                            <a class="menu__link menu__link--active" aria-current="page" href="/docs/introduction">Introduction</a>
+                            <a class="menu__link menu__link--active" aria-current="page" href="#features">Features</a>
                         </li>
                         <li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item">
-                            <a class="menu__link" href="/docs/getting-started">Getting Started</a>
+                            <a class="menu__link" href="#team">Team</a>
                         </li>
                         <li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item">
-                            <a class="menu__link" href="/docs/general">General</a>
+                            <a class="menu__link" href="#contact">Contact</a>
                         </li>
                         <li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item">
-                            <a class="menu__link" href="/docs/authentication">Authentication</a>
+                            <a class="menu__link" href="/docs/introduction">Docs</a>
                         </li>
-                        <li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed">
-                            <div class="menu__list-item-collapsible">
-                                <a class="menu__link menu__link--sublist" aria-expanded="false" href="/docs/category/core-domain">Core Domain</a>
-                                <button aria-label="Toggle the collapsible sidebar category 'Core Domain'" type="button" class="clean-btn menu__caret"></button>
-                            </div>
-                        </li>
-                        <li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed">
-                            <div class="menu__list-item-collapsible">
-                                <a class="menu__link menu__link--sublist" aria-expanded="false" href="/docs/category/bi-domain">BI Domain</a>
-                                <button aria-label="Toggle the collapsible sidebar category 'BI Domain'" type="button" class="clean-btn menu__caret"></button>
-                            </div>
-                        </li>
-                        <li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed">
-                            <div class="menu__list-item-collapsible">
-                                <a class="menu__link menu__link--sublist" aria-expanded="false" href="/docs/category/tutorial---basics">Tutorial - Basics</a>
-                                <button aria-label="Toggle the collapsible sidebar category 'Tutorial - Basics'" type="button" class="clean-btn menu__caret"></button>
-                            </div>
-                        </li>
-                        <li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed">
-                            <div class="menu__list-item-collapsible">
-                                <a class="menu__link menu__link--sublist" aria-expanded="false" href="/docs/category/tutorial---extras">Tutorial - Extras</a>
-                                <button aria-label="Toggle the collapsible sidebar category 'Tutorial - Extras'" type="button" class="clean-btn menu__caret"></button>
-                            </div>
+                        <li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item">
+                            <a class="menu__link" href="/blog">Blog</a>
                         </li>
                     </ul>
                 </div>
