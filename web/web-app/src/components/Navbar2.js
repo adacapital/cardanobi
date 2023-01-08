@@ -39,13 +39,13 @@ const Navbar = () => {
                     <div class="navbar__logo"><img src="img/cardanobi_logo_full_white.png" id="brand_logo" alt="CardanoBI" class="themedImage_node_modules-@docusaurus-theme-classic-lib-theme-ThemedImage-styles-module themedImage--dark_node_modules-@docusaurus-theme-classic-lib-theme-ThemedImage-styles-module"/></div>
                     <b class="navbar__title text--truncate">Alpha</b>
                 </a>
-                <a class="navbar__item navbar__link" href="#features">Featues</a>
+                <a class="navbar__item navbar__link" href="#features">Features</a>
                 <a class="navbar__item navbar__link" href="#team">Team</a>
                 <a class="navbar__item navbar__link" href="#contact">Contact</a>
                 <a class="navbar__item navbar__link" href="/docs/introduction">Docs</a>
                 <a class="navbar__item navbar__link" href="/blog">Blog</a></div>
                 <div class="navbar__items navbar__items--right">
-                    <a href="https://github.com/adacapital/cardanobi" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link"><FaGithub size={30} />
+                    <a href="https://github.com/cardanobi" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link"><FaGithub size={30} />
                     </a>
                     <div class="toggle_node_modules-@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module colorModeToggle_node_modules-@docusaurus-theme-classic-lib-theme-Navbar-Content-styles-module">
                         <button class="clean-btn toggleButton_node_modules-@docusaurus-theme-classic-lib-theme-ColorModeToggle-styles-module" type="button" id="theme_toggle_btn" title="Switch between dark and light mode (currently dark mode)" aria-label="Switch between dark and light mode (currently dark mode)" aria-live="polite" onClick={() => { onThemeToggleClick(this); }}>
