@@ -14,7 +14,7 @@ if (config.has("enableCors") && config.get("enableCors")) {
 const HTTP_PORT = process.env.PORT || 8000;
 
 if (isDev) {
-    app.listen(HTTP_PORT, () => {
+    app.listen(HTTP_PORT, "0.0.0.0", () => {
         console.log("Server is listening on port " + HTTP_PORT);
     });
 }
