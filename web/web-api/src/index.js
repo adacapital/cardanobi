@@ -24,7 +24,7 @@ app.use(express.static(buildPath))
 // SPA
 app.get("/", (req, res) => res.sendFile(path.join(buildPath, "index.html")));
 // DOCS
-app.get("/", (req, res) => res.sendFile(path.join("/home/cardano/cardanobi-docs/build", "index.html")));
+app.get("/docs", (req, res) => res.sendFile(path.join("/home/cardano/cardanobi-docs/build", "index.html")));
 
 // API
 // no endpoints for now
