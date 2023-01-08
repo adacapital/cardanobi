@@ -131,10 +131,14 @@ const Navbar = () => {
                             <a class="menu__link" href="#contact">Contact</a>
                         </li>
                         <li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item">
-                            <a class="menu__link" href="/docs/introduction">Docs</a>
+                                <a class="menu__link" href="https://docs.cardanobi.io" target="_blank" rel="noopener noreferrer">Docs 
+                                    &nbsp;<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg>
+                                </a>
                         </li>
                         <li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item">
-                            <a class="menu__link" href="/blog">Blog</a>
+                            <a class="menu__link" href="https://docs.cardanobi.io/blog" target="_blank" rel="noopener noreferrer">Blog 
+                                &nbsp;<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg>
+                            </a>
                         </li>
                     </ul>
                 </div>
