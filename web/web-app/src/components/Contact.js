@@ -24,7 +24,7 @@ const Contact = () => {
                     </a>
                 </div>
                 <div class="" style={{ width: '100px'}}>
-                    <a href="https://github.com/adacapital/cardanobi" class="popup-button glow-on-hover" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/cardanobi" class="popup-button glow-on-hover" target="_blank" rel="noopener noreferrer">
                         <div class="align-items-center justify-content-center" style={{ width: "60px", height: "60px", display: "inline" }}><FaGithub size={30} /></div>
                     </a>
                 </div>
