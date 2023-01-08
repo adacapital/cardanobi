@@ -1,5 +1,5 @@
 import React from 'react'
-import 'antd/dist/antd.css';
+// import 'antd/dist/antd.css';
 import { Modal } from 'antd';
 
 function countDownPopup() {

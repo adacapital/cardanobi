@@ -764,3 +764,258 @@ padding: .2em 1em;
   max-width: 100%;
   height: auto;
 }
+
+
+
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+ html[data-theme='dark'],
+ .navbar--dark {
+   --ifm-menu-link-sublist-icon-filter: invert(100%) sepia(94%) saturate(17%)
+     hue-rotate(223deg) brightness(104%) contrast(98%);
+ }
+ 
+ .navbar {
+   background-color: var(--ifm-navbar-background-color);
+   box-shadow: var(--ifm-navbar-shadow);
+   display: flex;
+   height: var(--ifm-navbar-height);
+   padding: var(--ifm-navbar-padding-vertical)
+     var(--ifm-navbar-padding-horizontal);
+ }
+ 
+ .navbar > .container,
+   .navbar > .container-fluid {
+     display: flex;
+   }
+ 
+ .navbar--fixed-top {
+     position: sticky;
+     top: 0;
+     z-index: var(--ifm-z-index-fixed);
+   }
+ 
+ .navbar__inner {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     width: 100%;
+   }
+ 
+ .navbar__brand {
+     align-items: center;
+     color: var(--ifm-navbar-link-color);
+     display: flex;
+     margin-right: 1rem;
+     min-width: 0;
+   }
+ 
+ .navbar__brand:hover {
+       color: var(--ifm-navbar-link-hover-color);
+       text-decoration: none;
+     }
+ 
+ .navbar__title {
+     flex: 1 1 auto;
+   }
+ 
+ .navbar__toggle {
+     display: none;
+     margin-right: 0.5rem;
+   }
+ 
+ .navbar__logo {
+     flex: 0 0 auto;
+     height: 2rem;
+     margin-right: 0.5rem;
+   }
+ 
+ .navbar__logo img {
+       height: 100%;
+     }
+ 
+ .navbar__items {
+     align-items: center;
+     display: flex;
+     flex: 1;
+     min-width: 0;
+   }
+ 
+ .navbar__items--center {
+       flex: 0 0 auto;
+     }
+ 
+ .navbar__items--center .navbar__brand {
+         margin: 0;
+       }
+ 
+ .navbar__items--center + .navbar__items--right {
+         flex: 1;
+       }
+ 
+ .navbar__items--right {
+       flex: 0 0 auto;
+       justify-content: flex-end;
+     }
+ 
+ .navbar__items--right > :last-child {
+         padding-right: 0;
+       }
+ 
+ .navbar__item {
+     display: inline-block;
+     padding: var(--ifm-navbar-item-padding-vertical)
+       var(--ifm-navbar-item-padding-horizontal);
+   }
+ 
+ .navbar__item.dropdown .navbar__link:not([href]) {
+         pointer-events: none;
+       }
+ 
+ .navbar__link {
+     color: var(--ifm-navbar-link-color);
+     font-weight: var(--ifm-font-weight-semibold);
+   }
+ 
+ .navbar__link:hover,
+     .navbar__link--active {
+       color: var(--ifm-navbar-link-hover-color);
+       text-decoration: none;
+     }
+ 
+ .navbar--dark,
+   .navbar--primary {
+     --ifm-menu-color: var(--ifm-color-gray-300);
+     --ifm-navbar-link-color: var(--ifm-color-gray-100);
+     --ifm-navbar-search-input-background-color: rgba(255, 255, 255, 0.1);
+     --ifm-navbar-search-input-placeholder-color: rgba(255, 255, 255, 0.5);
+ 
+     color: var(--ifm-color-white);
+   }
+ 
+ .navbar--dark {
+     --ifm-navbar-background-color: #242526;
+     --ifm-navbar-link-hover-color: var(--ifm-color-primary);
+     --ifm-menu-color-background-active: rgba(255, 255, 255, 0.05);
+     --ifm-navbar-search-input-color: var(--ifm-color-white);
+   }
+ 
+ .navbar--primary {
+     --ifm-navbar-background-color: var(--ifm-color-primary);
+     --ifm-navbar-link-hover-color: var(--ifm-color-white);
+     --ifm-menu-color-active: var(--ifm-color-white);
+     --ifm-navbar-search-input-color: var(--ifm-color-emphasis-500);
+   }
+ 
+ .navbar__search-input {
+       appearance: none; /* Algolia will add type="search" to the input in Safari and Safari's styling will override the styling here. */
+       background: var(--ifm-navbar-search-input-background-color)
+         var(--ifm-navbar-search-input-icon) no-repeat 0.75rem center / 1rem 1rem;
+       border: none;
+       border-radius: 2rem;
+       color: var(--ifm-navbar-search-input-color);
+       cursor: text;
+       display: inline-block;
+       font-size: 0.9rem;
+       height: 2rem;
+       padding: 0 0.5rem 0 2.25rem;
+       width: 12.5rem;
+     }
+ 
+ .navbar__search-input::placeholder {
+         color: var(--ifm-navbar-search-input-placeholder-color);
+       }
+ 
+ .navbar-sidebar {
+     background-color: var(--ifm-navbar-background-color);
+     bottom: 0;
+     box-shadow: var(--ifm-global-shadow-md);
+     left: 0;
+     opacity: 0;
+     overflow-x: hidden;
+     position: fixed;
+     top: 0;
+     transform: translate3d(-100%, 0, 0);
+     visibility: hidden;
+     width: var(--ifm-navbar-sidebar-width);
+     transition-property: opacity, visibility, transform;
+     transition-duration: 250ms;
+     transition-timing-function: ease-in-out;
+   }
+ 
+ .navbar-sidebar--show .navbar-sidebar,
+       .navbar-sidebar--show .navbar-sidebar__backdrop {
+         opacity: 1;
+         visibility: visible;
+       }
+ 
+ .navbar-sidebar--show .navbar-sidebar {
+         transform: translate3d(0, 0, 0);
+       }
+ 
+ .navbar-sidebar__backdrop {
+       background-color: rgba(0, 0, 0, 0.6);
+       bottom: 0;
+       left: 0;
+       opacity: 0;
+       position: fixed;
+       right: 0;
+       top: 0;
+       visibility: hidden;
+       transition-property: opacity, visibility;
+       transition-duration: 100ms;
+       transition-timing-function: ease-in-out;
+     }
+ 
+ .navbar-sidebar__brand {
+       align-items: center;
+       box-shadow: var(--ifm-navbar-shadow);
+       display: flex;
+       flex: 1;
+       height: var(--ifm-navbar-height);
+       padding: var(--ifm-navbar-padding-vertical)
+         var(--ifm-navbar-padding-horizontal);
+     }
+ 
+ .navbar-sidebar__items {
+       display: flex;
+       height: calc(100% - var(--ifm-navbar-height));
+       transform: translateZ(0);
+       transition: transform var(--ifm-transition-fast) ease-in-out;
+     }
+ 
+ .navbar-sidebar__items--show-secondary {
+         transform: translate3d(
+           calc((var(--ifm-navbar-sidebar-width)) * -1),
+           0,
+           0
+         );
+       }
+ 
+ .navbar-sidebar__item {
+       flex-shrink: 0;
+       padding: 0.5rem;
+       width: calc(var(--ifm-navbar-sidebar-width));
+     }
+ 
+ .navbar-sidebar__back {
+       background: var(--ifm-menu-color-background-active);
+       font-size: 15px;
+       font-weight: var(--ifm-button-font-weight);
+       margin: 0 0 0.2rem -0.5rem;
+       padding: 0.6rem 1.5rem;
+       position: relative;
+       text-align: left;
+       top: -0.5rem;
+       width: calc(100% + 1rem);
+     }
+ 
+ .navbar-sidebar__close {
+       display: flex;
+       margin-left: auto;
+     }
