@@ -9,4 +9,5 @@ SCRIPT_DIR="$(realpath "$(dirname "$0")")"
 
 cd $SCRIPT_DIR
 export NODE_ENV=production
+export PORT=4431
 sudo NODE_ENV=production npm run start
