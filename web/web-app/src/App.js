@@ -2,6 +2,7 @@ import React from 'react';
 // import './App.css';
 // import Navbar from './components/Navbar'
 import Navbar from './components/Navbar2'
+// import Navbar from './components/Navbar3'
 import Header from './components/Header'
 import Features from './components/Features'
 import Team from './components/Team'

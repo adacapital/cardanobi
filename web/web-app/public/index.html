@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" id="thomas">
+<html lang="en" id="thomas" data-theme="dark">
   <head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-882QD63PHP"></script>
     <script>
@@ -89,7 +89,12 @@
         t=localStorage.getItem("theme");
       } catch(t) {} 
       return t}();
-    t(null!==e?e:"dark");
+
+    defaultTheme = document.documentElement.getAttribute("data-theme");
+    if (defaultTheme===undefined)
+      t(null!==e?e:"dark");
+    else
+      t(defaultTheme);
     console.log("init theme:",e);
   }()
   </script>
