@@ -56,7 +56,7 @@
       --ifm-color-primary-light: rgb(83, 140, 233);
       --ifm-color-primary-lighter: rgb(114, 161, 237);
       --ifm-color-primary-lightest: rgb(154, 188, 242);
-      --ifm-color-primary-contrast-background: rgb(235, 242, 252);
+      --ifm-color-primary-contrast-background: rgb(129, 129, 129);
       --ifm-color-primary-contrast-foreground: rgb(16, 36, 69);
       --ifm-color-secondary-dark: rgb(212, 213, 216);
       --ifm-color-secondary-darker: rgb(200, 201, 204);
@@ -2895,7 +2895,8 @@
     --ifm-table-stripe-background: rgba(255, 255, 255, 0.07);
   
     --ifm-toc-border-color: var(--ifm-color-emphasis-200);
-      --ifm-color-primary-contrast-background: rgb(16, 36, 69);
+      /* --ifm-color-primary-contrast-background: rgb(16, 36, 69); */
+      --ifm-color-primary-contrast-background: rgb(19, 23, 27);
       --ifm-color-primary-contrast-foreground: rgb(235, 242, 252);
       --ifm-color-secondary-contrast-background: rgb(71, 71, 72);
       --ifm-color-secondary-contrast-foreground: rgb(253, 253, 254);
@@ -4915,7 +4916,8 @@
   }
   
   .bg-darker {
-    background-color: #13171b!important;
+    background-color: var(--ifm-color-primary-contrast-background);
+    /* background-color: #13171b!important; */
     /* background-color: #abcff3!important; */
   }
   .responsive-image {
@@ -4957,6 +4959,7 @@
   }
   
   .page-header {
+    background-color: var(--ifm-color-primary-contrast-background);
     margin-top: 4rem;
     font-size: 1.25rem;
     color: #fff;
