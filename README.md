@@ -1,5 +1,11 @@
 ![This is an image](/web/web-app/public/img/cardanobi_logo_full_white.png#gh-dark-mode-only)
 ![This is an image](/web/web-app/public/img/cardanobi_logo_full_black.png#gh-light-mode-only)
+
+# :warning: This repository has moved to a new location :warning:
+# :ocean: Visist our new home: [CardanoBI](https://github.com/cardanobi/)
+#
+#
+#
 # CardanoBI :
 The first fully open-source Business Intelligence API layer to provide on-chain analytics and enable new data-driven services on Cardano.
 
